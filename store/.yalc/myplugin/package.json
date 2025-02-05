@@ -1,0 +1,44 @@
+{
+  "name": "myplugin",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": ".medusa/server/src/index.js",
+  "types": ".medusa/server/src/index.d.ts",
+  "files": [
+    ".medusa/server/src"
+  ],
+  "keywords": [
+    "sqlite",
+    "postgres",
+    "typescript",
+    "ecommerce",
+    "headless",
+    "medusa",
+    "plugin"
+  ],
+  "scripts": {
+    "build": "medusa plugin:build",
+    "dev": "medusa plugin:develop",
+    "prepublishOnly": "medusa plugin:build"
+  },
+  "peerDependencies": {
+    "@medusajs/admin-sdk": ">=2.4.0",
+    "@medusajs/cli": ">=2.4.0",
+    "@medusajs/framework": ">=2.4.0",
+    "@medusajs/icons": ">=2.4.0",
+    "@medusajs/medusa": ">=2.4.0",
+    "@medusajs/test-utils": ">=2.4.0",
+    "@medusajs/ui": "4.0.3",
+    "@mikro-orm/cli": ">=6.4.3",
+    "@mikro-orm/core": ">=6.4.3",
+    "@mikro-orm/knex": ">=6.4.3",
+    "@mikro-orm/migrations": ">=6.4.3",
+    "@mikro-orm/postgresql": ">=6.4.3",
+    "awilix": "^8.0.1",
+    "pg": "^8.13.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "yalcSig": "1b5482cf183a8d47b27b783f4573d551"
+}
